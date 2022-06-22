@@ -5,8 +5,184 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>badge</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="img/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+
+      <div id="banner-part">
+        <div class="bg">
+            <img src="img/bg-2.png" alt="">
+        </div>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                    <div class="row align-items-center ">
+                        <div class="col-md-6">
+                            <div class="details">
+                                <h2>Mackbook Pro</h2>
+                                <p style="width:80% ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus accusantium ipsam corporis molestias. Obcaecati fugit distinctio dolorem est eaque.</p>
+                                <button class="btn btn-dark">Boy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 img-a">
+                            <img src="img/slider-2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="details">
+                                <h2>Mackbook Pro</h2>
+                                <p style="width:80% ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus accusantium ipsam corporis molestias. Obcaecati fugit distinctio dolorem est eaque.</p>
+                                <button class="btn btn-dark">Boy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/slider-1.png" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="details">
+                                <h2>Mackbook Pro</h2>
+                                <p style="width:80% ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus accusantium ipsam corporis molestias. Obcaecati fugit distinctio dolorem est eaque.</p>
+                                <button class="btn btn-dark">Boy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+
+      <section id="smartphone">
+        <div class="container">
+            <h2 class="smartp">Smartphones</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-4">
+                  <div class="card h-100 cardd">
+                    <img src="img/phone-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">iPhone 13pro</h2>
+                      <p class="card-text">This is a longer card with supporting as a natural lead-in to additional content. This content </p>
+                      <h3>$430</h3>
+                      <button class="btn btn-dark">Boy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100 cardd">
+                    <img src="img/phone-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Oppo A54</h2>
+                      <p class="card-text">This is a short card.  is a longer card with supporting  text below text below as a natural l</p>
+                      <h3>$430</h3>
+                      <button class="btn btn-dark">Boy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100 cardd">
+                    <img src="img/phone-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Samsang Gallacy</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h3>$430</h3>
+                      <button class="btn btn-dark">Boy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+      <section id="laptop">
+        <div class="container">
+            <h2 class="smartp">Laptop</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-4">
+                  <div class="card h-100 cardd">
+                    <img src="img/product-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Mackbook</h2>
+                      <p class="card-text">This is a longer card with supporting as a natural lead-in to additional content. This content.</p>
+                      <h3>$430</h3>
+                      <button class="btn btn-dark">Boy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100 cardd">
+                    <img src="img/product-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">HP</h2>
+                      <p class="card-text">This is a short card.  is a longer card with supporting  text below text below as a natural l</p>
+                      <h3>$430</h3>
+                      <button class="btn btn-dark">Boy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100 cardd">
+                    <img src="img/product-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Dell</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <h3>$430</h3>
+                      <button class="btn btn-dark">Boy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
     
+
+
+      <div style="margin-top: 300px;"></div>
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

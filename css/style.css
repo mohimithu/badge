@@ -1,0 +1,52 @@
+
+
+.logo{
+    width: 70%;
+}
+#banner-part {
+    position: relative;
+}
+.bg{
+    bottom: 10%;
+    left: 0;
+    position: absolute;
+}
+/* ========================= navbar end  =====================  */
+
+#smartphone .smartp {
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#smartphone .cardd{
+    text-align: center;
+    border: none;
+    padding: 30px 10px;
+    margin-right: 20px;
+    -webkit-box-shadow: 3px 3px 50px -9px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 50px -9px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 50px -9px rgba(0,0,0,0.5);
+}
+
+
+/* ========================= smartphome end  =====================  */
+
+#laptop{
+    margin-top: 80px;
+}
+#laptop .smartp{
+    margin-bottom: 40px;
+    font-weight: bold;
+	font-size: 40px;
+}
+#laptop .cardd{
+    text-align: center;
+    border: none;
+    padding: 30px 10px;
+    margin-right: 20px;
+    -webkit-box-shadow: 3px 3px 50px -9px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 50px -9px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 50px -9px rgba(0,0,0,0.5);
+}
+/* ========================= laptop end  =====================  */
